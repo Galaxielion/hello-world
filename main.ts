@@ -1,6 +1,7 @@
-function greet(FirstName: String, LastName?: String) : void{
-    console.log("Hello," + FirstName + " " +LastName); 
+function greet(name: string) {
+    return "Hello, " + name;
 }
 
-greet("Xavier")
+var user: "Stalin";
 
+console.log( greet(user) );
